@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product-page {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: hsl(223, 64%, 98%);
+}
+
+.product-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.thumbnail-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.thumbnail {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.product-details {
+    max-width: 500px;
+}
+
+h1 {
+    color: hsl(220, 13%, 13%);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: hsl(219, 9%, 45%);
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.price-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.discounted-price {
+    color: hsl(26, 100%, 55%);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.original-price {
+    color: hsl(220, 14%, 75%);
+    text-decoration: line-through;
+    margin-right: 1rem;
+}
+
+.discount {
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.quantity-control button {
+    background-color: hsl(220, 14%, 75%);
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.quantity-control span {
+    padding: 0 1rem;
+    font-size: 1.25rem;
+}
+
+.add-to-cart {
+    background-color: hsl(26, 100%, 55%);
+    color: hsl(0, 0%, 100%);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
